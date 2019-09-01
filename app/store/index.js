@@ -10,7 +10,8 @@ export const getters = {
 
 export const mutations = {
     setUser(state, { user }) {
-        state.user = userstate.isLoggedIn = true
+        state.user = user
+        state.isLoggedIn = true
     }
 }
 
